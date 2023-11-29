@@ -12,11 +12,14 @@
 
     <header>
       <div class="header-logo">
-        写真投稿サイト
+        <%= link_to("写真投稿サイト","/")%>
       </div>
       <ul class="header-menus">
         <li>
-          写真投稿サイトとは
+          <%= link_to("写真投稿サイトとは","/about")%>
+        </li>
+        <li>
+          <%= link_to("投稿一覧","/posts/index")%>
         </li>
       </ul>
     </header>
